@@ -1,0 +1,11 @@
+@media (max-width: 1005px) {
+    header img {
+        display: none;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+    #navbarSupportedContent{
+        display: none;
+    }
+}
