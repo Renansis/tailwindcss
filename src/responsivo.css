@@ -1,20 +1,22 @@
-@media (max-width: 1005px) {
-    header img {
-        display: none;
+@media (max-width:1005px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
     }
-    .navbar-brand{
-        text-align: center;
+
+    header img{
+        display:block;
+        width:80%;
+        margin:20px auto;
     }
-    #navbarSupportedContent{
-        display: none;
-    }
-    header button{
-        margin-left: 430px;
-    }
+
 }
 
-@media (max-width: 865px){
-    header button{
-        display: none;
+@media (max-width:865px){
+
+    header p{
+        font-size:22px;
     }
+
 }

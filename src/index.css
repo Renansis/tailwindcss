@@ -6,9 +6,6 @@
 nav img{
     height: 25px;
     width: 25px;
-    margin-left: 130px;
-    margin-top: -25px;
-    
 }
 header h2{
     text-align: center;
@@ -29,9 +26,6 @@ header p{
    color: aliceblue;
    font-family: 'Times New Roman', Times, serif;
 }
-header button{
-    margin-left: 230px;
-}
 
 header button:hover{
   background-color: aqua;
@@ -41,7 +35,7 @@ header button:hover{
 section{
     padding: 20px;
     background-color: darkgoldenrod;
-    padding-right: 160px;
+    padding: 20px;
 }
 .tudo{
     background-color: darkgoldenrod;

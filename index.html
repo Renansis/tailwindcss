@@ -11,21 +11,24 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Pet&Style.com<img src="pet.png" alt="Logo"></a>
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+    <img src="pet.png" alt="Logo">
+    Pet&Style.com
+</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="#">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contado</a>
+          <a class="nav-link" href="#">Contato</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Mais opçoes 
+            Mais opções
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -46,20 +49,20 @@
   </div>
 </nav>
    <header class= "bg-amber-700 flex flex-col lg:flex-row items-center p-8">
-      <div class="w-64 flex-1 lg:w-1/2">
+      <div class="flex-1 lg:w-1/2 text-center lg:text-left">
         <h2 class="underline decoration-sky-500 py-3">Bem-vindo a  Pet&Style.com</h2>
-         <p class="py-5 text-left mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus praesentium consequatur placeat magni. Porro esse velit ipsum dolorum, dignissimos officiis ea eos delectus reprehenderit, accusamus eaque accusantium obcaecati fugiat.</p>
-         <div>
-          <button class="border-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">Clique aqui!</button>
+         <p class="py-5 text-center lg:text-left lg:mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus praesentium consequatur placeat magni. Porro esse velit ipsum dolorum, dignissimos officiis ea eos delectus reprehenderit, accusamus eaque accusantium obcaecati fugiat.</p>
+         <div class="flex justify-center lg:justify-start mt-6">
+          <button class="border-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition ">Clique aqui!</button>
          </div>
       </div>
-      <div class="w-32 flex-1 lg:w-1/2">
+      <div class="flex-1 lg:w-1/2 flex justify-center">
            <img src="pexels-izafi-18730964.jpg" alt="img" class="mx-5 rounded-lg shadow-lg w-full">
       </div>
    </header>
    <section class="bg-amber-700 p-8" >
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-       <div class="card" style="width: 18rem;">
+       <div class="card w-full max-w-sm mx-auto shadow-lg" style="width: 18rem;">
        <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
        <h5 class="card-title">Banho</h5>
@@ -67,16 +70,16 @@
        <a href="#" class="btn btn-primary">Ver agora!</a>
      </div>
      </div>
-       <div class="card" style="width: 18rem;">
+       <div class="card w-full max-w-sm mx-auto shadow-lg" style="width: 18rem;">
        <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
-       <h5 class="card-title">Medicaçao</h5>
+       <h5 class="card-title">Medicação</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
        <a href="#" class="btn btn-primary">Ver agora!</a>
      </div>
      </div>
 
-       <div class="card" style="width: 18rem;">
+       <div class="card w-full max-w-sm mx-auto shadow-lg" style="width: 18rem;">
        <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
        <h5 class="card-title">Produtos de limpeza</h5>
@@ -84,7 +87,7 @@
        <a href="#" class="btn btn-primary">Ver agora!</a>
      </div>
      </div>
-       <div class="card" style="width: 18rem;">
+       <div class="card w-full max-w-sm mx-auto shadow-lg" style="width: 18rem;">
        <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
        <h5 class="card-title">Pets</h5>
@@ -95,21 +98,35 @@
      </div>
      </section>
      
-     <form class="formulario bg-amber-700 p-8 max-w-2xl mx-auto">
+     <form class="bg-amber-700 max-w-2xl mx-auto p-6 rounded-lg shadow-lg">
      <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Eamil</label>
+    <label for="exampleInputEmail1" class="form-label">E-mail</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com terceiros.</div>
     </div>
     <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Mensagem</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <div class="mb-3">
+    <label class="form-label">Mensagem</label>
+
+    <textarea
+        class="form-control"
+        rows="5"
+        placeholder="Digite sua mensagem">
+    </textarea>
+
+    </div>
     </div>
     <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-800 transition">Enviar</button>
+    <div class="text-center">
+    <button
+        type="submit"
+        class="btn btn-primary bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-800 transition">
+        Enviar
+    </button>
+    </div>
     </form>
     <section class="depoimentos grid grid-cols-1 md:grid-cols-3 gap-8 text-center p-10 bg-amber-700">
       <div>
@@ -122,14 +139,14 @@
       </div>
       <div>
         <h4>Renan:</h4>
-        <p>Atendimento execelente!</p>
+        <p>Atendimento excelente!</p>
       </div>
     </section>
-     <footer>
-      <h4 class="text-center py-3">Contado:</h4>
+     <footer class="bg-green-500 text-center py-6">
+      <h4 class="text-center py-3">Contato</h4>
       <ul class="text-center">
-        <li><a href="#">Whatszap:0000-0000</a></li>
-        <li><a href="#">Email: Nseioq1234@gmail.com</a></li>
+        <li><a href="#">WhatsApp:0000-0000</a></li>
+        <li><a href="#">E-mail: Nseioq1234@gmail.com</a></li>
         <li><a href="#">Telefone:0000-0000</a></li>
       </ul>
      </footer>
