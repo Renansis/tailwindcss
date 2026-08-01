@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="src/responsivo.css">
-    <link href="src/output.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Celulares.com<img src="mobile-phone.png" alt="Logo"></a>
+    <a class="navbar-brand" href="#">Pet&Style.com<img src="pet.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,51 +45,57 @@
     </div>
   </div>
 </nav>
-   <header class="flex bg-amber-700">
-      <div class="w-64 flex-1">
-        <h2 class="underline decoration-sky-500 py-3">Bem-vindo a Celular.com</h2>
+   <header class= "bg-amber-700 flex flex-col lg:flex-row items-center p-8">
+      <div class="w-64 flex-1 lg:w-1/2">
+        <h2 class="underline decoration-sky-500 py-3">Bem-vindo a  Pet&Style.com</h2>
          <p class="py-5 text-left mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus praesentium consequatur placeat magni. Porro esse velit ipsum dolorum, dignissimos officiis ea eos delectus reprehenderit, accusamus eaque accusantium obcaecati fugiat.</p>
          <div>
-          <button class="border-2">Clique aqui!</button>
+          <button class="border-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">Clique aqui!</button>
          </div>
       </div>
-      <div class="w-32 flex-1">
-           <img src="pexels-matreding-11297769.jpg" alt="img" class="mx-5" class="img">
+      <div class="w-32 flex-1 lg:w-1/2">
+           <img src="pexels-izafi-18730964.jpg" alt="img" class="mx-5 rounded-lg shadow-lg w-full">
       </div>
    </header>
-   <section class="tudo">
-    <section>
+   <section class="bg-amber-700 p-8" >
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
        <div class="card" style="width: 18rem;">
-       <img src="lukgehr-iphone-12-5755365_1920.jpg" class="card-img-top" alt="...">
+       <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
-       <h5 class="card-title">Troca de Aparelho</h5>
+       <h5 class="card-title">Banho</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
        <a href="#" class="btn btn-primary">Ver agora!</a>
      </div>
      </div>
-    </section>
-    <section>
        <div class="card" style="width: 18rem;">
-       <img src="militiamobiles-man-8308722_1920.jpg" class="card-img-top" alt="...">
+       <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
-       <h5 class="card-title">Conserto de Clulares</h5>
+       <h5 class="card-title">Medicaçao</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
        <a href="#" class="btn btn-primary">Ver agora!</a>
      </div>
      </div>
-    </section>
-    <section>
+
        <div class="card" style="width: 18rem;">
-       <img src="mohamed_hassan-repair-3686407_1920.jpg" class="card-img-top" alt="...">
+       <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
        <div class="card-body">
-       <h5 class="card-title">Manutençao</h5>
+       <h5 class="card-title">Produtos de limpeza</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
        <a href="#" class="btn btn-primary">Ver agora!</a>
+     </div>
+     </div>
+       <div class="card" style="width: 18rem;">
+       <img src="pexels-masoodaslami-30810890.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+       <h5 class="card-title">Pets</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+       <a href="#" class="btn btn-primary">Ver agora!</a>
+     </div>
      </div>
      </div>
      </section>
-     </section>
-     <form class="formulario">
+     
+     <form class="formulario bg-amber-700 p-8 max-w-2xl mx-auto">
      <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Eamil</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -104,8 +109,22 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-800 transition">Enviar</button>
     </form>
+    <section class="depoimentos grid grid-cols-1 md:grid-cols-3 gap-8 text-center p-10 bg-amber-700">
+      <div>
+      <h4>Lucas:</h4>
+      <p>Nossa que loja boa!</p>
+      </div>
+      <div>
+        <h4>Bruno:</h4>
+        <p>queria ter conhecido essa loja antes!</p>
+      </div>
+      <div>
+        <h4>Renan:</h4>
+        <p>Atendimento execelente!</p>
+      </div>
+    </section>
      <footer>
       <h4 class="text-center py-3">Contado:</h4>
       <ul class="text-center">
@@ -114,5 +133,6 @@
         <li><a href="#">Telefone:0000-0000</a></li>
       </ul>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

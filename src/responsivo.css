@@ -8,4 +8,13 @@
     #navbarSupportedContent{
         display: none;
     }
+    header button{
+        margin-left: 430px;
+    }
+}
+
+@media (max-width: 865px){
+    header button{
+        display: none;
+    }
 }

@@ -4,9 +4,9 @@
 }
 
 nav img{
-    height: 30px;
-    width: 30px;
-    margin-left: 125px;
+    height: 25px;
+    width: 25px;
+    margin-left: 130px;
     margin-top: -25px;
     
 }
@@ -30,9 +30,7 @@ header p{
    font-family: 'Times New Roman', Times, serif;
 }
 header button{
-    margin-left: 270px;
-    padding: 20px;
-    color: aliceblue;
+    margin-left: 230px;
 }
 
 header button:hover{
@@ -41,7 +39,6 @@ header button:hover{
 }
 
 section{
-    display: inline-block;
     padding: 20px;
     background-color: darkgoldenrod;
     padding-right: 160px;
@@ -49,9 +46,7 @@ section{
 .tudo{
     background-color: darkgoldenrod;
 }
-.card{
-    margin-left: 104px;
-}
+
 footer{
     background-color: chartreuse;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -60,4 +55,13 @@ footer{
 
 .formulario{
     background-color: darkgoldenrod;
+}
+
+.depoimentos{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 100px;
 }
